@@ -22,5 +22,5 @@ In order for the ima-campaign-tracker script to work you must make sure that all
 
 
 ### Usage
-Either add a reference to the *ima-campaign-tracker.min.js" script or embed the contents of the file at the end each page your want the script to run on (or on a root template if you have one). If you're using a single page web application you can call $ima.campaignTracker.bind() to refresh the bindings after new content is loaded.
+Either add a reference to the *ima-campaign-tracker.min.js" script or embed the contents of the file at the end of each page you want the script to run on (or on a root template if you have one). If you need to rebind after rendering dynamic content you can call $ima.campaignTracker.bind() to refresh the bindings after the new content is loaded.
 
