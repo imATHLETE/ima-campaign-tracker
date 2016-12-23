@@ -101,7 +101,6 @@
                     findLinks(cookie.campaign, params.src);
                 }
             }
-            debugger;
             bind();
 
             $ima.campaignTracker = {
